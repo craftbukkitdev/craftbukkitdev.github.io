@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Host: https://tauzer.github.io/sitemap/
-Sitemap: https://tauzer.github.io/sitemap/sitemap.xml
+Host: https://tauzer.github.io/
+Sitemap: https://tauzer.github.io/sitemap.xml
