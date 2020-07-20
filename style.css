@@ -1,0 +1,35 @@
+.marginlefting {
+   margin-left: 60px !important;
+ }
+ 
+ .displaynone {
+   display: none !important;
+ }
+ 
+ .displayblock {
+   display: block !important;
+ }
+ 
+ .sidebar .item i {
+   font-size: 24px;
+   margin-top: -5px !important;
+ }
+ 
+ .logo {
+   height: 48px !important;
+   padding: 10px !important;
+ }
+ 
+ .logo img {
+   width: 100% !important;
+   height: 38px !important;
+ }
+ 
+ .title.item {
+   padding: .92857143em 1.14285714em !important;
+ }
+ 
+ .dropdown .menu .header {
+   padding-top: 3.9px!important;
+   padding-bottom: 3.9px!important;
+ }
