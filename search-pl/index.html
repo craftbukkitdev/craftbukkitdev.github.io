@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Vue search filter</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="app">
+  <div class="search-wrapper">
+    <input type="text" v-model="search" placeholder="Search title.."/>
+        <label>Search title:</label>
+  </div>
+  <div class="wrapper">
+    <div class="card" v-for="post in filteredList">
+      <a v-bind:href="post.link" target="_blank">
+        <img v-bind:src="post.img"/>
+        <small>posted by: {{ post.author }}</small>
+        {{ post.title }}
+      </a>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.9/vue.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
