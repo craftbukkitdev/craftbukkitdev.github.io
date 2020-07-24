@@ -12,8 +12,8 @@
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172948527-1"></script>
 
+  (window, document, "script", "https://www.googletagmanager.com/gtag/js?id=UA-172948527-1", "ym");
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
