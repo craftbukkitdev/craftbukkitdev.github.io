@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /nazarashy/
+Disallow: /sitemap/
+Disallow: /cmr/
 Host: https://tauzer.github.io/
 Sitemap: https://tauzer.github.io/sitemap.xml
