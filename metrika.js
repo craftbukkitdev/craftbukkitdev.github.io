@@ -12,11 +12,15 @@
 
 
 
+var importCdn = document.createElement('script');
 
-  (window, document, "script", "https://www.googletagmanager.com/gtag/js?id=UA-172948527-1", "ym");
+importCdn.setAttribute('src', 'https://www.googletagmanager.com/gtag/js?id=UA-172948527-1');
+
+document.head.appendChild(importCdn);
+
+
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-172948527-1');
-
