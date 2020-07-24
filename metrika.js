@@ -13,13 +13,12 @@
 
 
 
-fetchInject([
-  'https://www.googletagmanager.com/gtag/js?id=UA-172948527-1'
-]).then(() => {
-  console.log(`Finish in less than ${moment().endOf('year').fromNow(true)}`)
-})
 
+var importCdn = document.createElement('script');
 
+importCdn.setAttribute('src', 'https://www.googletagmanager.com/gtag/js?id=UA-172948527-1');
+
+document.head.appendChild(importCdn);
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
