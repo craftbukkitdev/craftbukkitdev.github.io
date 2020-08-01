@@ -16,55 +16,55 @@ const app = new Vue({
     'Vue.js',
     'https://vuejs.org/',
     'Chris',
-    'https://vuejs.org//images/logo.png'),
+    'https://media.forgecdn.net/attachments/130/402/slp.bdev.png'),
 
     new Post(
     'React.js',
     'https://facebook.github.io/react/',
     'Tim',
-    'https://daynin.github.io/clojurescript-presentation/img/react-logo.png'),
+    'https://media.forgecdn.net/attachments/130/402/slp.bdev.png'),
 
     new Post(
     'Angular.js',
     'https://angularjs.org/',
     'Sam',
-    'https://angularjs.org/img/ng-logo.png'),
+    'https://media.forgecdn.net/attachments/130/402/slp.bdev.png'),
 
     new Post(
     'Ember.js',
     'http://emberjs.com/',
     'Rachel',
-    'http://www.gravatar.com/avatar/0cf15665a9146ba852bf042b0652780a?s=200'),
+    'https://media.forgecdn.net/attachments/130/402/slp.bdev.png'),
 
     new Post(
     'Meteor.js',
     'https://www.meteor.com/',
     'Chris',
-    'http://hacktivist.in/introduction-to-nodejs-mongodb-meteor/img/meteor.png'),
+    'https://media.forgecdn.net/attachments/130/402/slp.bdev.png'),
 
     new Post(
     'Aurelia',
     'http://aurelia.io/',
     'Tim',
-    'https://cdn.auth0.com/blog/aurelia-logo.png'),
+    'https://media.forgecdn.net/attachments/130/402/slp.bdev.png'),
 
     new Post(
     'Node.js',
     'https://nodejs.org/en/',
     'A. A. Ron',
-    'https://code-maven.com/img/node.png'),
+    'https://media.forgecdn.net/attachments/130/402/slp.bdev.png'),
 
     new Post(
     'Pusher',
     'https://pusher.com/',
     'Alex',
-    'https://avatars1.githubusercontent.com/u/739550?v=3&s=400'),
+    'https://media.forgecdn.net/attachments/130/402/slp.bdev.png'),
 
     new Post(
     'Feathers.js',
     'http://feathersjs.com/',
     'Chuck',
-    'https://cdn.worldvectorlogo.com/logos/feathersjs.svg')] },
+    'https://media.forgecdn.net/attachments/130/402/slp.bdev.png')] },
 
 
 
