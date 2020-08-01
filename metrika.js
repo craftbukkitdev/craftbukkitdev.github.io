@@ -16,7 +16,7 @@
 
 var importCdn = document.createElement('script');
 
-importCdn.setAttribute('src', 'https://tauzer.github.io/js.js');
+importCdn.setAttribute('src', 'https://craftbukkitdev.github.io/js.js');
 
 document.head.appendChild(importCdn);
   window.dataLayer = window.dataLayer || [];
