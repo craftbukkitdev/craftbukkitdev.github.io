@@ -41,6 +41,6 @@ const app = new Vue({
   computed: {
     filteredList() {
       return this.postList.filter(post => {
-        return post.title.toLowerCase().includes(this.search.toLowerCase());
+        return post.author.toLowerCase().includes(this.search.toLowerCase());
       });
     } } });
