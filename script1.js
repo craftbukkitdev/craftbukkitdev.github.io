@@ -4,43 +4,75 @@ class Post {
     this.link = link;
     this.author = author;
     this.img = img;
-  }}
+  }
+}
 
-
-const app = new Vue({
+const app = new Vue ({
   el: '#app',
   data: {
     search: '',
-    postList: [
-    new Post(
-    'Plugin |Плагин BetterBonemealDispenser',
-    'https://craftbukkitdev.github.io/BetterBonemealDispenser.html',
-    'Plugin for improving the dispenser | Плагин  для улучшения диспенсера',
-    'https://sun9-21.userapi.com/PgLKRV3aGrF8jLteN0wLnl9pIWKr670Pyf4ifA/gGLhpJHWF34.jpg'),
-
-    new Post(
-    'Plugin |Плагин ArabCom',
-    'https://craftbukkitdev.github.io/ArabCom.html',
-    'Plugin for improving the dispenser | Плагин  для улучшения диспенсера',
-    'https://sun9-34.userapi.com/PqGThuCRIK_jsbTt6aMToes48WlCHNLNEf8-1g/iA7eiPPuRgU.jpg'),
-
-    new Post(
-    'Plugin |Плагин Classement Faction',
-    'https://craftbukkitdev.github.io/ClassementFaction.html',
-    'Classement Faction plugin | Плагин  фракции',
-    'https://imgur.com/ASaqNap.png'),
-
-    new Post(
-    'Plugin |Плагин AuthMe',
-    'https://craftbukkitdev.github.io/AuthMe.html',
-    'Registration plugin | Плагин регистрации',
-    'https://sun9-9.userapi.com/n5SNN1EJqr-4EiS0jDwCao7duWzDEzMlL2RlTw/XiV2GlHTw8w.jpg')] },
-
-
-
+    postList : [
+      new Post(
+        'Vue.js', 
+        'https://vuejs.org/', 
+        'Chris', 
+        'https://vuejs.org//images/logo.png'
+      ),
+      new Post(
+        'React.js', 
+        'https://facebook.github.io/react/', 
+        'Tim',
+        'https://daynin.github.io/clojurescript-presentation/img/react-logo.png'
+      ),
+      new Post(
+        'Angular.js', 
+        'https://angularjs.org/', 
+        'Sam', 
+        'https://angularjs.org/img/ng-logo.png'
+      ),
+      new Post(
+        'Ember.js', 
+        'http://emberjs.com/', 
+        'Rachel',
+        'http://www.gravatar.com/avatar/0cf15665a9146ba852bf042b0652780a?s=200'
+      ),
+      new Post(
+        'Meteor.js', 
+        'https://www.meteor.com/', 
+        'Chris', 
+        'http://hacktivist.in/introduction-to-nodejs-mongodb-meteor/img/meteor.png'
+      ),
+      new Post(
+        'Aurelia', 
+        'http://aurelia.io/', 
+        'Tim',
+        'https://cdn.auth0.com/blog/aurelia-logo.png'
+      ),
+      new Post(
+        'Node.js', 
+        'https://nodejs.org/en/', 
+        'A. A. Ron',
+        'https://code-maven.com/img/node.png'
+      ),
+      new Post(
+        'Pusher', 
+        'https://pusher.com/', 
+        'Alex', 
+        'https://avatars1.githubusercontent.com/u/739550?v=3&s=400'
+      ),
+      new Post(
+        'Feathers.js', 
+        'http://feathersjs.com/', 
+        'Chuck',
+        'https://cdn.worldvectorlogo.com/logos/feathersjs.svg'
+      ),
+]
+  },
   computed: {
     filteredList() {
       return this.postList.filter(post => {
-        return post.author.toLowerCase().includes(this.search.toLowerCase());
-      });
-    } } });
+        return post.title.toLowerCase().includes(this.search.toLowerCase())
+      })
+    }
+  }
+})
