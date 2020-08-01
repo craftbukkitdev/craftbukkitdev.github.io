@@ -34,13 +34,13 @@ const app = new Vue ({
         'Ember.js', 
         'http://emberjs.com/', 
         'Rachel',
-        'http://www.gravatar.com/avatar/0cf15665a9146ba852bf042b0652780a?s=200'
+        'https://www.gravatar.com/avatar/0cf15665a9146ba852bf042b0652780a?s=200'
       ),
       new Post(
         'Meteor.js', 
         'https://www.meteor.com/', 
         'Chris', 
-        'http://hacktivist.in/introduction-to-nodejs-mongodb-meteor/img/meteor.png'
+        'https://hacktivist.in/introduction-to-nodejs-mongodb-meteor/img/meteor.png'
       ),
       new Post(
         'Aurelia', 
