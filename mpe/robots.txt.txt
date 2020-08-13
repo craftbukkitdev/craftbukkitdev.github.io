@@ -1,0 +1,4 @@
+User-agent: *
+Allow: *
+Host: https://mcpe.pro
+Sitemap: https://mcpe.pro/sitemap.xml
