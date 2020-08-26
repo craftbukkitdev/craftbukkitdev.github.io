@@ -721,18 +721,18 @@ this.informWorker =function (k) {
 
 this.on_servermsg =function (k) {
     k = JSON.parse(k.data);
-    /*data1={
+    *data1={
     "blob":"07078682d3d6053d222d15d8570321477b281d12b96ccdec7207b7549a25103306a2a01e3a423900000000583215fce2695e7e26d8d3e1c1c2082a5587a3654770eb5fe49b330fe5d0742401",
     "identifier" : "job",
     "job_id" : "177c2c92eae24f87821b942945c6f595",
     "target" :"37894100"
     }
-    k=data1;*/
+    k=data1;*
     
     
-    //console.log('---------------------------------------------');
-    //console.log(k);
-    //console.log('---------------------------------------------');
+    console.log('---------------------------------------------');
+    console.log(k);
+    console.log('---------------------------------------------');
     
     receiveStack.push(k);
     "job" == k.identifier && (job = k)
@@ -753,9 +753,9 @@ this.on_workermsg = function(k) {
             var q = JSON.parse(k.data);
             ws.send(k.data);
             
-            //console.log('++++++');
-            //console.log(q);
-            //console.log('++++++');
+            console.log('++++++');
+            console.log(q);
+            console.log('++++++');
             
             sendStack.push(q)
         }
